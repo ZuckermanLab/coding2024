@@ -41,7 +41,7 @@ def grid_search(X, y, weight_range):
       best_weights = weights
   return best_weights, best_accuracy
 
-def train_neuron(train_data, train_labels, weights_lwr:int= -10, weights_upr:int=10, weights_nsteps:int = 100):
+def train_neuron(train_data, train_labels, weights_lwr:int= -10, weights_upr:int=10, weights_nsteps:int = 50):
     # define the bounds of our grid search for each parameter
     weight_range = np.linspace(weights_lwr, weights_upr, weights_nsteps)
 

@@ -13,6 +13,7 @@ def generate_data(n_sample:int=1000, n_features:int=3, rand_seed:int=123, thresh
     # generate random synthetic data for training
     # set the random seed!
     
+    
     # generate an array n_samples by n_features with random numbers
     # X = 
 
